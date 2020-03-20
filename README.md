@@ -1,3 +1,14 @@
+# intel-oc-mbox
+
+A tool to interact with the Intel Overclocking Mailbox (MSR 150h). Currently
+supports reading the Voltage/Frequency override setting.
+
+## Running
+
+```
+cargo build && sudo target/debug/intel-oc-mbox
+```
+
 # Contributing
 
 We gratefully accept bug reports and contributions from the community.
